@@ -5,16 +5,37 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+        <link rel="preconnect" href="https://fonts.bunny.net" crossorigin="anonymous">
+        <link href="https://fonts.bunny.net/css?family=red-hat-display:500,700,900" rel="stylesheet" crossorigin="anonymous">
         <link rel="stylesheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="./assets/css/style.css">
-        <title>Document</title>
+        <title>Frontend Mentor | Order summary card</title>
     </head>
 
     <body class="body">
         <main class="main">
+            <article class="card">
+                <img class="card__img" src="./assets/images/illustration-hero.svg" alt="Image hero card">
+                <div class="card__container">
+                    <h1 class="card__title">Order Summary</h1>
+                    <p class="card__desc">
+                        You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+                    </p>
+                    <div class="card__action">
+                        <img class="action__img" src="./assets/images/icon-music.svg" alt="Icon music">
+                        <div class="action__plan">
+                            <p class="action__title">Annual Plan</p>
+                            <p class="action__price">$59.99/year</p>
+                        </div>
+                        <button class="action__change">Change</button>
+                    </div>
+                    <button class="card__validation">Proceed to Payment</button>
+                    <button class="card__cancel">Cancel Order</button>
+                </div>
+            </article>
         </main>
         <footer class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Challenge by <a href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj" target="_blank">Frontend Mentor</a>. 
             Coded by <a href="https://costincadeau.fr">Costin Cadeau</a>.
         </footer>
     </body>
